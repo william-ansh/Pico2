@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2A2A2A;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.timesNewRoman {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.nav {
+    background-color: #262626;
+    color: #CDD8D8;
+    height: 80px;
+}
+
+#navspan {
+    float: left;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-top: 15px;
+    padding: 15px 15px 15px 35px;
+}
+
+#navul ul {
+    position: absolute;
+    right: 0px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 35px 15px 15px;
+    margin-top: 20px;
+}
+
+.nav li {
+    display: inline-block;;
+}
+
+.nav li a:active {
+    color: #FF6760;
+}
+
+.nav li a:hover {
+    color: #FF6760;
+}
+.nav li a {
+    color: #D8D8D8;
+    margin-right: 35px;
+}
+
+#home {
+    color: #FF6760;
+}
+/* Body */
+
+.introduction {
+    color: #D8D8D8;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.introduction h1 {
+    font-size: 48px;
+    font-weight: lighter;
+    margin-top: 65px;
+}
+
+.introduction h1 > span {
+    font-weight: bold;
+}
+
+.introduction h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 25px 0;
+}
+
+.introduction h2 > span {
+    color: #EB615B;
+}
+
+.introduction a {
+    background-color: #FF6760;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    margin: 10px 0 75px 0;
+    height: 50px;
+    width: 150px;
+    padding: 18px 0px;
+}
+
+/* Features */
+
+.features {
+    background-color: #F6F6F6;
+    color: #616161;
+    height: 450px;
+}
+
+.featureList {
+    float: left;
+    margin: 25px 0;
+    padding: 5px 0 20px 0;
+    text-align: center;
+    width: 33.33333333333333%;
+}
+
+.featureList h3 {
+    font-size: 20px;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.featureList p {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+/* Footer */
+
+.footer {
+    color: #D8D8D8;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 24px;
+    margin: 50px 0 25px 0;
+    font-weight: bold;
+}
+
+.footer p {
+    color: #858585;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.footer p a {
+    color: #EB615B;
+}
+
+#icons {
+    margin: 15px 0 50px 0;
+}
+
+#icons a {
+    color: #4470CF;
+    font-size: 36px;
+}
+
